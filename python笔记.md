@@ -9,5 +9,8 @@
     * string.find('word')
     * string.index('word') > -1 (不存在会返回-1,在字符串截取的时候需要注意下)
 * python的抬头编码声明, #coding = utf-8
+* python没有switch语法
+* 逻辑运算符是 and or 而不是 ||之类的，看来是崇尚自然的表达
+* python没有自增只有 i += 1
 
 ![Alt text](test.png)
