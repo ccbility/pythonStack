@@ -38,3 +38,8 @@ b = a[:]
 b = list(a)
 ```
 * 完全面向对象的意思是：即使只有一行代码，想要跑起来，它也必须在一个类里面。
+* 字符串转换有两个函数， str repr，str在转换浮点数时会丢失，而repr是原样，并且可以被eval回去
+```python
+import time
+msec = sepr(time.time()).replace('.', '') # 获取尾部三位毫秒，去掉.
+```
