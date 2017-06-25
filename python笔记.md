@@ -43,3 +43,9 @@ b = list(a)
 import time
 msec = sepr(time.time()).replace('.', '') # 获取尾部三位毫秒，去掉.
 ```
+* [python合并列表，append()/extend()/+/+=的区别](http://www.cnblogs.com/meitian/p/4649173.html)
+1. append()  向列表尾部追加一个新元素，列表只占一个索引位，在原有列表上增加
+2. extend() 向列表尾部追加一个列表，将列表中的每个元素都追加进来，在原有列表上增加
+3. +直接用+号看上去与用extend()一样的效果，但是实际上是生成了一个新的列表存这两个列表的和，只能用在两个列表相加上
+4. += 效果与extend()一样，向原列表追加一个新元素，在原有列表上增加
+![效果演示](http://images0.cnblogs.com/blog2015/626983/201507/151819343459772.png)
